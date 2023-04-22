@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="texte 1.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="windth=device-width, initial-scale=1">
+	<title>TABLE OUVRAGE</title>
+</head>
+<body background="moi 1.png">
+
+<div>
+	<center>
+	<img src="logo.jpg">
+    <img src="lycee.png">
+    <img src="themee.png">
+    
+	
+    <form method="POST" action="index.php">
+        <div>
+          <label for="idouv">id_ouvrage <span class="star">*</span></labe>
+          <br>
+          <input type="number" min="1" placeholder="id ouvrage" requierd="" class="input" name="id_ouv">
+    </div>
+
+    <div>
+        <label for="tit">titre_de_l'ouvrage <span class="star"></span>*</label>
+        <br>
+        <input type="text" placeholder="votre titre" required class="input" name="titre">
+    </div>
+
+    <div>
+        <label for="fil">filiere<span class="star">*</span></label>
+        <br>
+        <input type="text" placeholder="votre filiere" required class="input" name="filiere">
+        
+    </div>
+
+    <div>
+        <label for="ann">annee<span class="star"></span>*</label>
+        <br>
+        <input type="date" placeholder="annee" required class="input" name="annee">
+    </div>
+
+    <div>
+        <label for="maison">maison edition<span class="star">*</span></label>
+       <br>
+        <input type="text" placeholder="maison edition livre" requiered class="input" name="maison">
+    </div>
+
+    <div>
+        <label for="auteur">auteur livre<span class="star">*</span></label>
+        <br>
+        <input type="text" placeholder="votre auteur du livre" required class="input" name="auteur">
+
+    </div>
+
+
+    <div>
+        <label for="date">date arrivée du livre <span class="star">*</span></label>
+        <br>
+        <input type="date" placeholder="votre date arrivée" required class="input" name="date"> 
+
+    </div>
+     <div>
+        <label for="etat">etat livre <span class="star">*</span></label>
+        <br>
+        <input type="texte" placeholder=" votre etat du livre" required class="input" name="etat" > 
+
+    </div>
+
+    <div>
+        <button>
+            envoyer
+        </button>
+</div>
+        </center>
+
+    </form>
+     
+</body>
+</html>
